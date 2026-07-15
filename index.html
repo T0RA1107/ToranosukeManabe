@@ -88,11 +88,11 @@
   }
   .pub:last-child { border-bottom: none; }
   .pub-thumb {
-    width: 180px; height: 110px;
+    width: 200px; height: 120px;
     flex-shrink: 0;
     border-radius: 6px;
-    object-fit: cover;
-    background: var(--card);
+    object-fit: contain;
+    background: #fff;
     border: 1px solid var(--border);
   }
   .pub-thumb-placeholder {
@@ -194,7 +194,8 @@
     </p>
 
     <div class="pub">
-      <div class="pub-thumb-placeholder">Figure<br>(images/prolap.png)</div>
+      <img class="pub-thumb" src="prolap.png" alt="ProLAP figure">
+
       <div class="pub-info">
         <span class="venue">Interspeech 2026 🇦🇺</span>
         <div class="pub-title">ProLAP: Probabilistic Language-Audio Pre-Training</div>
@@ -208,7 +209,8 @@
     </div>
 
     <div class="pub">
-      <div class="pub-thumb-placeholder">Figure<br>(images/icpr2026.png)</div>
+      <img class="pub-thumb" src="icpr2026.png" alt="Sign-to-Speech Prosody Transfer figure">
+
       <div class="pub-info">
         <span class="venue">ICPR 2026 (Oral) 🇫🇷</span>
         <div class="pub-title">Sign-to-Speech Prosody Transfer via Sign Reconstruction-based GAN</div>
@@ -222,7 +224,8 @@
     </div>
 
     <div class="pub">
-      <div class="pub-thumb-placeholder">Figure<br>(images/icip2026.png)</div>
+      <img class="pub-thumb" src="icip2026.png" alt="Listening without Looking figure">
+
       <div class="pub-info">
         <span class="venue">ICIP 2026 🇫🇮</span>
         <div class="pub-title">Listening without Looking: Modality Bias in Audio-Visual Captioning</div>
